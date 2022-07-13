@@ -14,7 +14,7 @@ public class KiteHomePage
 	public KiteHomePage(WebDriver driver) 
 	{
 		PageFactory.initElements(driver, this);
-		
+		// i make changes here
 	}
 	
 //	public void validateUserID(String ExpUserID)
