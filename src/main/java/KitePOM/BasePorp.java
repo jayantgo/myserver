@@ -15,7 +15,7 @@ public class BasePorp
 		System.setProperty("webdriver.chrome.driver", "D:\\Velocity\\Java Class\\19th March Even\\Selenium\\chromedriver.exe");
 		
 		driver= new ChromeDriver();
-		driver.get(UtilityProp.readDataFromPropertyFile("URL"));
+		driver.get(UtilityProp.readDataFromPropertyFile("URL1"));
 	}
 
 }
